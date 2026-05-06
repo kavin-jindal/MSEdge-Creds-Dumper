@@ -2,7 +2,7 @@
 
 A proof of concept tool that extracts saved credentials from Microsoft Edge's process memory using Windows API calls. Built for educational and authorized purposes only.
 
-This POC is based on the recent finding by [@L1v1ng0ffTh3L4N](https://x.com/L1v1ng0ffTh3L4N) which you can read more about on his Twitter thread here https://x.com/L1v1ng0ffTh3L4N/status/2051308329880719730
+This POC is based on the recent finding by [@L1v1ng0ffTh3L4N](https://x.com/L1v1ng0ffTh3L4N) which you can read more about on his Twitter thread [here](https://x.com/L1v1ng0ffTh3L4N/status/2051308329880719730).
 
 I built this program while learning to work with Windows API and Internals. There might be several limitations and bugs to which fixes and contributions are welcome.
 ## What Does This Do?
