@@ -5,6 +5,8 @@ A proof of concept tool that extracts saved credentials from Microsoft Edge's pr
 This POC is based on the recent finding by [@L1v1ng0ffTh3L4N](https://x.com/L1v1ng0ffTh3L4N) which you can read more about on his Twitter thread [here](https://x.com/L1v1ng0ffTh3L4N/status/2051308329880719730).
 
 I built this program while learning to work with Windows API and Internals. There might be several limitations and bugs to which fixes and contributions are welcome.
+<img width="2016" height="841" alt="image" src="https://github.com/user-attachments/assets/05ad9008-307b-41d8-a9e9-39ccdc783e2a" />
+
 ## What Does This Do?
 
 This script dumps the full memory of the main Microsoft Edge browser process, then scans through that dump looking for saved website credentials (domains, usernames, and passwords) that are still sitting in memory in plaintext.
