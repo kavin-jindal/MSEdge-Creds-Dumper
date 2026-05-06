@@ -78,6 +78,3 @@ python main.py
 
 This tool is provided strictly for **educational purposes and authorized security testing**. Do not use it on systems or accounts you don't own or have explicit written permission to test. Unauthorized access to computer systems and data is illegal. I take no responsibility for any misuse of this software.
 
-## License
-
-MIT
