@@ -1,6 +1,8 @@
 
 import psutil,  ctypes, sys
 import ctypes.wintypes as wt
+from minidump.minidumpfile import MinidumpFile
+import re
 print(r'''
 ___  ___ _____ _____    _              _____              _      ______                                 
 |  \/  |/  ___|  ___|  | |            /  __ \            | |     |  _  \                                
@@ -97,8 +99,7 @@ success=dbghelp.MiniDumpWriteDump(
 kernel32.CloseHandle(hFile)
 kernel32.CloseHandle(hProcess)
 
-from minidump.minidumpfile import MinidumpFile
-import re
+
 
 dump    = MinidumpFile.parse(r'edge.dmp')
 reader  = dump.get_reader()
